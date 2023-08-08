@@ -1,2 +1,2 @@
 #!/bin/bash
-find -mindepth 1 -maxdepth 1 -prinff x | wc -c
+ls -1A | wc -l
